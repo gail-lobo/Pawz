@@ -1,0 +1,16 @@
+.category-page-container{
+    min-height: 90vh;
+}
+
+.category-banner-container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.category-banner-container h1 {
+    font-size: 36px;
+    font-weight: bold; 
+}

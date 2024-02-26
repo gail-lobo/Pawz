@@ -1,0 +1,51 @@
+.home-banner-container{
+    background-image: url('../images/pawz_banner.jpg');
+    height: 88vh;
+    background-size: cover;
+    background-position: bottom;
+    width: 97.5%;
+    margin: 0 auto;
+}
+
+.category-tile{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    color:white;
+    font-size: 28px;
+    cursor:pointer;
+    margin-top: 30px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    transition: all 0.4s;
+    font-weight: bold;
+}
+
+.card{
+    border: none !important;
+    width: 15rem !important;
+}
+
+img.card-img-top.product-preview-img{
+    border-radius: 10px;
+}
+
+.category-tile:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width: 992px) {
+  .home-banner-container {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-banner-container {
+    height: 40vh;
+  }
+}
+
